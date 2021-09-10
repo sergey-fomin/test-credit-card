@@ -1,0 +1,88 @@
+.promo {
+  min-height: 1160px;
+  padding-top: 310px;
+  padding-bottom: 40px;
+  text-align: center;
+  position: relative;
+  top: 0;
+  background-image: url("../img/bg-images.png"), url("../../img/bg-card.png"),
+    url("../../img/bg-card.png"),
+    linear-gradient(-18deg, $basic_darkblue 0%, $basic_lightblue 100%);
+  background-repeat: no-repeat;
+  background-position: 10%, 100%, 103% 120px, 0;
+  overflow: hidden;
+
+  @media (max-width: $tablet-width) {
+    min-height: fit-content;
+    padding-top: 250px;
+  }
+
+  @media (max-width: $mobile-width) {
+    padding-top: 150px;
+  }
+}
+
+.promo__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.promo__title {
+  margin: 0;
+  margin-bottom: 35px;
+  font-family: "Poppins", "Arial", sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+  color: $basic_white;
+}
+
+.promo__text {
+  max-width: 940px;
+  margin-bottom: 56px;
+  font-family: "Nunito", "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 2;
+  color: $basic_white;
+}
+
+.promo__button {
+  min-width: 180px;
+  min-height: 45px;
+  margin-bottom: 92px;
+  border-radius: 22px;
+}
+
+.promo__images {
+  position: relative;
+
+  &--back-cards {
+    &::before,
+    &::after {
+      content: "";
+      width: 414px;
+      height: 370px;
+      background-image: url("../img/back-card.png");
+      background-repeat: no-repeat;
+      position: absolute;
+      top: 63px;
+
+      @media (max-width: $mobile-width) {
+        display: none;
+      }
+    }
+
+    &::before {
+      left: -304px;
+    }
+
+    &::after {
+      left: 460px;
+    }
+  }
+}
+
+.promo__image {
+  position: relative;
+  z-index: 5;
+}

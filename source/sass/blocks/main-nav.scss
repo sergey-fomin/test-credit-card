@@ -1,0 +1,62 @@
+.main-nav {
+  display: flex;
+  align-items: center;
+  column-gap: 37px;
+
+  @media (max-width: $mobile-width) {
+    flex-direction: column;
+    row-gap: 15px;
+  }
+}
+
+.main-nav__list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 44px;
+
+  @media (max-width: $mobile-width) {
+    width: 100%;
+    order: 2;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.main-nav__item {
+  @media (max-width: $mobile-width) {
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.main-nav__link {
+  font-size: 14px;
+  color: $basic_white;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 1.86;
+  letter-spacing: 0.14px;
+
+  &:hover,
+  &:focus {
+    opacity: 0.6;
+  }
+
+  &:active {
+    opacity: 0.3;
+  }
+}
+
+.main-nav__create-account {
+  min-width: 125px;
+  height: 30px;
+  border-radius: 12px;
+
+  @media (max-width: $mobile-width) {
+    order: 1;
+  }
+}

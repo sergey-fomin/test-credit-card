@@ -1,0 +1,23 @@
+.button {
+  font-family: "Poppins", "Arial", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 2;
+  letter-spacing: -0.42px;
+  text-transform: capitalize;
+  color: $basic_lightblue;
+  background-color: $basic_white;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &:hover,
+  &:focus {
+    background-color: rgba($basic_white, 0.7);
+  }
+
+  &:active {
+    color: rgba($basic_lightblue, 0.3);
+  }
+}

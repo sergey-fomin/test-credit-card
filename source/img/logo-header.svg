@@ -1,0 +1,31 @@
+<svg id="Logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="216" height="46" viewBox="0 0 216 46">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 18px;
+        filter: url(#filter);
+        text-transform: uppercase;
+      }
+
+      .cls-1, .cls-2 {
+        fill: #fff;
+        font-family: Poppins;
+      }
+
+      .cls-2 {
+        font-size: 12px;
+        font-weight: 300;
+      }
+    </style>
+    <filter id="filter" x="53" y="14" width="163" height="18" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" dy="3" in="SourceAlpha"/>
+      <feGaussianBlur result="blur" stdDeviation="1.732"/>
+      <feFlood result="flood" flood-color="#1e1c1c" flood-opacity="0.75"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feBlend result="blend" in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <image id="Vector_Smart_Object" data-name="Vector Smart Object" width="40" height="43" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAArCAYAAAAKasrDAAADrUlEQVRYhe2YX2jWVRjHv+edrjRpDEuQ0GFCRJQFXeiFwZR5kzDWzYg0I6hwEF3UhRFdFIhKFyLDCvXClPRiTKQIZkSoGeJqV3U12mLEIGEwkvwzZ+MjT+/zynl/5/eutfedey/eL4z3/Z3zPed8ds7vec6zqZYCdgOngaaaTlwLATuAGYo6BoR6gusE/qFcBxPjYgjYCkw72iBwNML8eLHhNgE3HeZXYA2wDjgRQb6XDLxPcM8C1xxixOG+AX5xyP4I8q1kggWGexKY8MXHI6DXgGeAKw484B4Lnh3JRAsEt86hTAb5hB/p25FnI/CjQ150r72nncmENYZ7zI8TP17brcPAB97/OHDEv28BzjvkTz5myoIqmbhGcI96IJiu+y7tAw54fx8w6v2TDrsd+BZYG429YWOTBaqEa4l24ZanlveBzy0hA62lYLAdBPYAHT62G/gaaMvufrLQPOGWAz/E7xHQA3wZ3xbAkO+gfbZm5njdd3h99v1NFvyfcM3AuSgSXwF2Amfz7lvfudIxd2T63gGO52SAtmThOcI1AWfiXAZ0OXBzxtvqR9vhn98ZbM6cHwK9OTl0dQIwm/y9im+Dd4FtHpXL84ZGQTJaCpLEVPR9Auz1IItvoUcScyUBn0ZwHwGbgUsWLBWGlBa3HexLOso9wYNrjwfbbV9n8L/mL02wP4I7CDwPXLY0k5jnKaDgQdbjQXfH17uQPaGyms1Sh6T9/nhMUq+k85J+l/RnrQBdFmQvStrlzyclFSQNSOoKIUyXAdpvI+kzfzSoNyUtldScTF1bzUi6IWm3pFJg9Ut6OYQwU4J7lfqTpaRgqeQlSaezx10Hek7SSouoFZKW1BncPeXumhWeklYkHTYghPaMd7OkvYmxqP4QwuGM/5DvTp7eCCGMxO2Vdu4PSbkJOUc3JY2lzf9qMmmRrs7in842VAL83iN4WJJdQ+OSnkpcRU1IOifptqRRSQ9LekCS5c3fErf0swOOu8/S1wbvu5648wT85THd5cmzvRTjWbt7TGPus5vnC287lOO/EN1Q5tsQ5Y/k6As5fHWlBmC1agBWqwZgtWoAVqsGYLWqVG51e7Ew5Z93JD2oYrl1KuNdK+kF++oFQ8F/rBAZDiEMZfzbJK3yyqXgcy/z7oEQQlkFVKmaWemVxly01CuXPI3ntLXM4k/+W1EJ0IrQh5LWorIViv3B3Z64ivpb0sVMm1UsTyfOor7y8u2eQl6JU0eaCXk1Xh3pWn1HsaS7QtijWfN6IxsAAAAASUVORK5CYII="/>
+  <text id="Digital_Banking" data-name="Digital Banking" class="cls-1" x="53.763" y="26.065">Digital Banking</text>
+  <text id="Be_Safe_Banking" data-name="Be Safe Banking" class="cls-2" x="53.938" y="43.157">Be Safe Banking</text>
+</svg>

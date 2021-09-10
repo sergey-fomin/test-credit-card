@@ -1,0 +1,52 @@
+// Global
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}
+
+.page {
+  height: 100%;
+}
+
+.page-body {
+  min-width: 320px;
+  min-height: 100%;
+  font-family: "Poppins", "Arial", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  background-color: $basic_white;
+  position: relative;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+
+  @media (max-width: $mobile-width) {
+    max-width: calc(100% - 40px);
+    padding: 0;
+  }
+}
