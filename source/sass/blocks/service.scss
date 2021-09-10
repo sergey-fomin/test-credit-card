@@ -1,0 +1,38 @@
+.service {
+  min-height: 796px;
+  padding-top: 145px;
+  padding-bottom: 158px;
+  background-color: $basic_white;
+  position: relative;
+
+  @media (max-width: $tablet-width) {
+    min-height: fit-content;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  @media (max-width: $mobile-width) {
+    padding-top: 80px;
+    padding-bottom: 60px;
+  }
+}
+
+.service__title {
+  margin: 0;
+  margin-bottom: 60px;
+  font-family: "Poppins", "Arial", sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 1.4;
+  letter-spacing: 0.9px;
+  color: $basic_darkgrey;
+  text-transform: uppercase;
+
+  &:first-line {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.75;
+    letter-spacing: normal;
+    color: $basic_grey;
+  }
+}
