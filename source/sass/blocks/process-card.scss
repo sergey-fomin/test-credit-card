@@ -4,6 +4,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   position: relative;
   overflow: hidden;
   transition: 0.2s all cubic-bezier(0.24, 1.22, 0.55, 1.61);
@@ -33,16 +34,9 @@
   }
 }
 
-.process-card__image {
-  margin-bottom: 27px;
-  background-color: linear-gradient(
-    to top,
-    $basic_darkblue 0%,
-    $basic_lightblue 100%
-  );
-}
-
 .process-card__title {
+  margin-top: 10px;
+  margin-bottom: 10px;
   font-family: "Poppins", "Arial", sans-serif;
   font-size: 20px;
   font-weight: 600;

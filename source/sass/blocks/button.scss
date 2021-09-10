@@ -20,4 +20,8 @@
   &:active {
     color: rgba($basic_lightblue, 0.3);
   }
+
+  &--bold {
+    text-transform: uppercase;
+  }
 }
