@@ -1,7 +1,13 @@
 .feedback {
   min-height: 574px;
   padding-top: 135px;
+  padding-bottom: 135px;
   background-color: $basic_white;
+
+  @media (max-width: $mobile-width) {
+    padding-top: 90px;
+    padding-bottom: 110px;
+  }
 }
 
 .feedback__wrapper {
