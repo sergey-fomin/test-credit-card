@@ -49,4 +49,14 @@ img {
     max-width: calc(100% - 40px);
     padding: 0;
   }
+
+  &--right-shift {
+    max-width: 1195px;
+    padding: 0 0 0 20px;
+
+    @media (max-width: $tablet-width) {
+      max-width: calc(100% - 40px);
+      padding: 0;
+    }
+  }
 }

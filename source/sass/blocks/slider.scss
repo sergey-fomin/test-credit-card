@@ -32,7 +32,9 @@
     }
   }
 
-  @media (max-width: $small-desktop-width) {
+  @media (max-width: $tablet-width) {
+    bottom: -60px;
+
     &--left {
       left: 50px;
     }

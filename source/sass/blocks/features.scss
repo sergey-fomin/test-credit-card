@@ -1,0 +1,66 @@
+.features {
+  min-height: 550px;
+  padding-top: 170px;
+  padding-bottom: 180px;
+  background-image: linear-gradient(
+      -18deg,
+      rgba($basic_darkblue, 0.9) 0%,
+      rgba($basic_lightblue, 0.9) 100%
+    ),
+    url("../img/bg-coins.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center 0;
+
+  @media (min-resolution: 2dppx) {
+    background-image: linear-gradient(
+        -18deg,
+        rgba($basic_darkblue, 0.9) 0%,
+        rgba($basic_lightblue, 0.9) 100%
+      ),
+      url("../img/bg-coins@2x.jpg");
+  }
+
+  @media (max-width: $tablet-width) {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  @media (max-width: $mobile-width) {
+    padding-top: 90px;
+    padding-bottom: 90px;
+  }
+}
+
+.features__list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  column-gap: 30px;
+  row-gap: 30px;
+
+  @media (max-width: $tablet-width) {
+    justify-content: space-evenly;
+  }
+}
+
+.features__item {
+  flex: 0 0 250px;
+  display: flex;
+
+  &:nth-child(4n + 3) {
+    justify-content: center;
+  }
+
+  &:nth-child(4n + 4) {
+    justify-content: flex-end;
+  }
+
+  @media (max-width: $tablet-width) {
+    &:nth-child(n) {
+      justify-content: center;
+    }
+  }
+}

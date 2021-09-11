@@ -1,0 +1,40 @@
+.feature-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 50px;
+}
+
+.feature-card__icon {
+  &--heart {
+    margin-top: 4px;
+    margin-bottom: 4px;
+  }
+
+  &--cart {
+    margin-top: 8px;
+    margin-bottom: 4px;
+  }
+
+  &--rocket {
+    margin-top: 4px;
+    margin-bottom: 1px;
+  }
+}
+
+.feature-card__description {
+  color: $basic_white;
+  font-family: "Poppins", "Arial", sans-serif;
+  text-align: center;
+}
+
+.feature-card__term {
+  margin-bottom: 5px;
+  font-size: 52px;
+  font-weight: 600;
+}
+
+.feature-card__definition {
+  font-size: 24px;
+}
