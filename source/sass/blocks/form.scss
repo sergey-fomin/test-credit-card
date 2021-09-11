@@ -1,0 +1,67 @@
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  column-gap: 70px;
+  row-gap: 30px;
+
+  @media (max-width: $tablet-width) {
+    flex-wrap: nowrap;
+  }
+}
+
+.form__input,
+.form__textarea,
+.form__button {
+  min-width: 550px;
+  font-family: "Raleway", "Arial", sans-serif;
+  font-size: 14px;
+
+  @media (max-width: $tablet-width) {
+    min-width: auto;
+  }
+}
+
+.form__input,
+.form__textarea {
+  padding: 20px;
+  color: $basic_black;
+  border: 1px solid $basic_black;
+  outline: 0;
+
+  ::placeholder {
+    color: $basic_grey;
+  }
+
+  &:hover,
+  &:focus {
+    border: 1px solid $basic_lightblue;
+  }
+}
+
+.form__button,
+.form__input {
+  height: 50px;
+}
+
+.form__textarea {
+  height: 130px;
+  resize: none;
+}
+
+.form__button {
+  color: $basic_white;
+  background-color: $basic_lightblue;
+  border: none;
+  outline: none;
+
+  &:hover,
+  &:focus {
+    background-color: rgba($basic_lightblue, 0.7);
+  }
+
+  &:active {
+    color: $basic_black;
+    background-color: rgba($basic_lightblue, 0.3);
+  }
+}
